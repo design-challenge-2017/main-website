@@ -59,10 +59,10 @@ body {
 
 .jumbotron {
   font-family: 'Bitter', serif;
-  color: #685544;
+  color: black;
 	background: #95B5BD;
-	text-align: center;
-   padding-top: 80px;
+	text-align: left;
+  padding-top: 80px;
   padding-bottom: 40px;
   margin-top: 12px;
 
