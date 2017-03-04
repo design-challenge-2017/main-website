@@ -1,7 +1,9 @@
 /*CSS styling for the website*/
 /*Color scheme from http://power20method.com/minimalist/*/
 
-
+#navbar1 {
+	padding-top: 50px
+}
 .portfolio-thumbnail {
 	background-color: #ded2a0;
   border-width: 2px;
