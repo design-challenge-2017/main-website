@@ -1,6 +1,10 @@
 /*CSS styling for the website*/
 /*Color scheme from http://power20method.com/minimalist/*/
 
+/*#navbarbottom {
+	background-color: white;
+}*/
+
 #navbar1 {
 	padding-top: 50px
 }
@@ -36,6 +40,7 @@
 .navbar-default .navbar-brand:hover {
   color: white;
 }
+
 
 .navbar-default .navbar-nav > li > a  {
   color: #A6A6A6;
