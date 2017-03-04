@@ -1,6 +1,31 @@
 /*CSS styling for the website*/
 /*Color scheme from http://power20method.com/minimalist/*/
+#instructions {
+  position: absolute;
+  top: 12.5%;
+  left: 12.5%;
+  width: 75%;
+  height: 75%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  padding-top: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
 
+#goButton {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+  width: 50%;
+  height: 10%;
+  z-index: 11;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom-bottom: 25%;
+
+}
 
 .portfolio-thumbnail {
 	background-color: #ded2a0;
