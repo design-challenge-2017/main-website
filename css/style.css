@@ -4,16 +4,56 @@
 /*#navbarbottom {
 	background-color: white;
 }*/
+a:hover {
+  color: #0099ff;
+  font-weight: bold;
+}
+
+#thumbnails {
+  padding-top: 150px;
+}
+
+.thumbnail {
+  max-width: 212.5px;
+  max-height: 212.5px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 30px;
+  right: 25px;
+  background: none;
+  color: #000;
+  font-weight: bold;
+  /*text-shadow:0px 0px 20px #fff;*/
+
+  visibility: hidden;
+  opacity: 0;
+}
+
+.thumbnail:hover .image-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portfolio-thumbnail:hover {
+  border-width: 3px;
+  border-color: #1C325F;
+
+}
+
 
 #navbar1 {
 	padding-top: 50px
 }
 .portfolio-thumbnail {
-	background-color: #ded2a0;
+	background-color: #1C325F;
   border-width: 2px;
   border-style: solid;
   border-right-style: solid;
-	border-color: #685544;
+	border-color: #fff;
 	overflow: hidden;
 }
 
