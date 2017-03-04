@@ -1,9 +1,15 @@
 /*CSS styling for the website*/
-/*Color scheme from http://power20method.com/minimalist/*/
 
-/*#navbarbottom {
-	background-color: white;
-}*/
+
+
+#project {
+	text-align: left;
+}
+
+#bodyText {
+	text-align: left;
+}
+
 .text {
 	padding-top: 100px;
 }
