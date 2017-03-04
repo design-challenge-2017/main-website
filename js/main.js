@@ -1,3 +1,5 @@
-//Javascript file for the Hazardous Waste Website//
+//JavaScript for the Madison Community Centers website
 
-$("input").tagsinput('items')
+$("#goButton").click(function(){
+	$("#instructions").remove()
+});
